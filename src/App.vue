@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <fk-table :showHeader="true"></fk-table>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import FkTable from './components/fk-table/fk-table'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // FTable,
+    // HelloWorld,
+    FkTable
   }
 }
 </script>
